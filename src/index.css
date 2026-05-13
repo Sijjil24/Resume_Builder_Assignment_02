@@ -1,1 +1,6 @@
-/* intentionally empty — all styles are in app.css */
+@import "tailwindcss";
+@variant dark (&:where(.dark, .dark *));
+
+html.dark {
+  background-color: #0d0d1a;
+}
